@@ -18,9 +18,8 @@ function codeBreaker(number,test=""){
       }
     }
   }
-  return result
+  return {result, toMatchRandom}
 }
 
-console.log(codeBreaker(1235))
 
 module.exports = codeBreaker
