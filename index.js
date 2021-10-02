@@ -11,8 +11,5 @@ app.use(cors());
 
 app.use("/api/codebreaker", APIRouter);
 
-const PORT = process.env.PORT || 4000
 
-app.listen(PORT, ()=>{
-  console.log(`Server running on port ${PORT}`);
-})
+module.exports = app

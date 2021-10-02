@@ -1,16 +1,27 @@
-const codebreaker = require('../codeBreaker');
+const {codeBreaker, randomNumber} = require('../codeBreaker');
 
 
 const APIController ={
 
   postNumber: (req, res)=>{
-    const {number} = req.body
+    try{
+      const {number, random} = req.body
 
-    const result = codebreaker(number)
+    const result = codeBreaker(number,random)
 
 
     res.status(200).json({msj:"Juego empezado", result})
+    }catch(err){
 
+    }
+    
+
+  },
+
+  getRandom:(req,res)=>{
+    let result  = randomNumber()
+
+    res.json(result)
   }
 
 

@@ -1,31 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1631983950130" clover="3.2.0">
-  <project timestamp="1631983950130" name="All files">
-    <metrics statements="19" coveredstatements="19" conditionals="7" coveredconditionals="7" methods="3" coveredmethods="3" elements="29" coveredelements="29" complexity="0" loc="19" ncloc="19" packages="1" files="2" classes="2"/>
-    <file name="calculator.js" path="C:\Users\sanlo\Desktop\dojo-jest\calculator.js">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <line num="1" count="1" type="stmt"/>
-      <line num="3" count="2" type="stmt"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="14" count="1" type="stmt"/>
-    </file>
-    <file name="codeBreaker.js" path="C:\Users\sanlo\Desktop\dojo-jest\codeBreaker.js">
-      <metrics statements="15" coveredstatements="15" conditionals="7" coveredconditionals="7" methods="1" coveredmethods="1"/>
-      <line num="2" count="10" type="stmt"/>
-      <line num="3" count="10" type="stmt"/>
-      <line num="5" count="10" type="stmt"/>
-      <line num="6" count="10" type="stmt"/>
-      <line num="7" count="40" type="stmt"/>
-      <line num="10" count="10" type="cond" truecount="2" falsecount="0"/>
-      <line num="11" count="10" type="stmt"/>
-      <line num="12" count="10" type="stmt"/>
-      <line num="13" count="40" type="cond" truecount="2" falsecount="0"/>
-      <line num="14" count="10" type="stmt"/>
-      <line num="16" count="30" type="cond" truecount="2" falsecount="0"/>
-      <line num="17" count="11" type="stmt"/>
-      <line num="21" count="10" type="stmt"/>
-      <line num="24" count="1" type="stmt"/>
-      <line num="26" count="1" type="stmt"/>
-    </file>
+<coverage generated="1633193517389" clover="3.2.0">
+  <project timestamp="1633193517389" name="All files">
+    <metrics statements="38" coveredstatements="18" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="0" elements="48" coveredelements="18" complexity="0" loc="38" ncloc="38" packages="3" files="4" classes="4"/>
+    <package name="dojo-tdd">
+      <metrics statements="23" coveredstatements="9" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="codeBreaker.js" path="C:\Users\sanlo\Desktop\dojo-tdd\codeBreaker.js">
+        <metrics statements="15" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+      </file>
+      <file name="index.js" path="C:\Users\sanlo\Desktop\dojo-tdd\index.js">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="dojo-tdd.controllers">
+      <metrics statements="9" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="api.controller.js" path="C:\Users\sanlo\Desktop\dojo-tdd\controllers\api.controller.js">
+        <metrics statements="9" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="dojo-tdd.routes">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="api.routes.js" path="C:\Users\sanlo\Desktop\dojo-tdd\routes\api.routes.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
