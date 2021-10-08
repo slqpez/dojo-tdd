@@ -12,4 +12,9 @@ app.use(cors());
 app.use("/api/codebreaker", APIRouter);
 
 
+app.get("/", function(req, res){
+  console.log("hola")
+})
+
+
 module.exports = app

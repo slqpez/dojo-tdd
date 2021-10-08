@@ -3,25 +3,25 @@ const {codeBreaker, randomNumber} = require('../codeBreaker');
 
 const APIController ={
 
-  postNumber: (req, res)=>{
+  startGame: (req, res)=>{
     try{
       const {number, random} = req.body
 
-    const result = codeBreaker(number,random)
+    const values = codeBreaker(number,random)
 
+    res.status(200).json({values})
 
-    res.status(200).json({msj:"Juego empezado", result})
     }catch(err){
-
+      console.log(err)
     }
     
 
   },
 
-  getRandom:(req,res)=>{
-    let result  = randomNumber()
+  getRandomNumber:(req,res)=>{
+    let number  = randomNumber()
 
-    res.json(result)
+    res.json({number})
   }
 
 
