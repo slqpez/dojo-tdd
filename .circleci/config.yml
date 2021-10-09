@@ -1,18 +1,14 @@
 version: 2.1
-executors:
-  my-custom-executor:
-    docker:
-      - image: cimg/node.lts
+orbs:
+  node: circleci/node@1.1
 jobs:
-  run-my-test:
-
-    executor: my-custom-executor
+  build:
+    executor:
+      name: node/default
+      tag: '10.4'
     steps:
       - checkout
-      - run: |
-          npm install
-          npm test
-workflow:
-  my-custom-workflow:
-    jobs:
-      - run-my-test
+      - node/with-cache:
+          steps:
+            - run: npm install
+      - run: npm run test
